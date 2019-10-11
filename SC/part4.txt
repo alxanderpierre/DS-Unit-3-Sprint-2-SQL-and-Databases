@@ -1,0 +1,23 @@
+# In the Northwind database, what is the type of relationship between the
+# `Employee` and `Territory` tables?
+
+# ANSWER: Mnay Employees can be assigned to only one Territory.
+# One - To - Many.
+
+
+# What is a situation where a document store (like MongoDB) is appropriate, and
+# what is a situation where it is not appropriate?
+
+# ANSWERS:
+# Appropriate: in the case of having a start up and you are looking for High
+# scalability with this there is no rigid schema so if you are looking for
+# funding its a good choice if you are looking to move FAST!
+# Not Appropriate: When you are trying to build the logic of your database.
+# there are no functions or stored procedure. So, in our example once start up
+# is funded it wise to switch over to a sql db. (elephant)
+
+
+# What is "NewSQL", and what is it trying to achieve
+
+# ANSWER: New sql is trying to achieve the pros of both Nosql and sql.
+# It wants to combine transactional ACID, and the horizontal scalability of Nosql.
